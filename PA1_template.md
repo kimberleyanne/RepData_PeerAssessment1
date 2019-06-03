@@ -42,7 +42,7 @@ ggplot(dailySteps, aes(x = totalSteps)) +
         theme_tufte()
 ```
 
-![](PA1_template_files/figure-html/mean steps per day-1.png)<!-- -->
+![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png)
 
 ```r
 # Calculate and report the mean and median of the total number of steps taken per day.
@@ -72,7 +72,7 @@ ggplot(intervalAverageSteps, aes(x = interval, y = averageSteps)) +
         theme_tufte()
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-1-1.png)<!-- -->
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png)
 
 ```r
 # Which 5-minute interval, on average across all the days in the dataset, 
@@ -115,7 +115,7 @@ ggplot(imputedDailySteps, aes(x = totalSteps)) +
         theme_tufte()
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-1.png)
 
 ```r
 # Calculate and report the mean and median total number of steps taken per day.
@@ -149,4 +149,4 @@ ggplot(activityImputedDayType, aes(x = interval, y = averageSteps)) +
         theme_tufte()
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png)
